@@ -83,7 +83,7 @@ std::array<std::uint8_t, 7> glyph(char ch) {
         case ',': return {0,0,0,0,4,4,8}; case '!': return {4,4,4,4,4,0,4};
         case '?': return {14,17,1,2,4,0,4}; case '-': return {0,0,0,31,0,0,0};
         case '+': return {0,4,4,31,4,4,0}; case '/': return {1,2,2,4,8,8,16};
-        case '%': return {17,2,4,8,17,0,0}; case ''': return {4,4,8,0,0,0,0};
+        case '%': return {17,2,4,8,17,0,0}; case 39: return {4,4,8,0,0,0,0};
         default: return {0,0,0,0,0,0,0};
     }
 }
